@@ -778,14 +778,14 @@ export default function App() {
                 {[
                   "TypeScript",
                   "React",
-                  "Next.js",
                   "Node.js",
-                  "Go",
                   "PostgreSQL",
-                  "Redis",
                   "Docker",
-                  "GraphQL",
-                  "tRPC"
+                  "PHP",
+                  "Python",
+                  "Django",
+                  "MySQL",
+                  "Git"
                 ].map((s) => (
                   <span
                     key={s}
