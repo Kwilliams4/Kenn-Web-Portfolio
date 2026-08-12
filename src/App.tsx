@@ -21,9 +21,9 @@ const t = {
       available: "Disponible para proyectos — 2026",
       bio: "Arquitecto de software y soluciones cloud. Construyo productos de extremo a extremo e infraestructura escalable en AWS.",
       stats: [
-        { value: "5+", label: "Años de experiencia" },
-        { value: "30+", label: "Proyectos entregados" },
-        { value: "3×", label: "AWS Certified" }
+        { value: "2+", label: "Años de experiencia" },
+        { value: "10+", label: "Proyectos entregados" },
+        { value: "1×", label: "AWS Certified" }
       ]
     },
     projects: {
@@ -46,16 +46,16 @@ const t = {
       available: "Available for projects — 2026",
       bio: "Software and cloud solutions architect. I build end-to-end products and scalable infrastructure on AWS.",
       stats: [
-        { value: "5+", label: "Years of experience" },
-        { value: "30+", label: "Projects delivered" },
-        { value: "3×", label: "AWS Certified" }
+        { value: "2+", label: "Years of experience" },
+        { value: "10+", label: "Projects delivered" },
+        { value: "1×", label: "AWS Certified" }
       ]
     },
     projects: {
       selected: (n: number) => `${n} projects selected`,
       sorted: "Sorted by date"
     },
-    certs: { title: "AWS Certifications", level: "Associate" },
+    certs: { title: "Certifications", level: "Associate" },
     stack: { title: "Tech stack" },
     contact: {
       label: "Contact",
@@ -594,8 +594,11 @@ export default function App() {
             {[
               {
                 code: "SAA-C03",
-                name: { es: "Solutions Architect", en: "Solutions Architect" },
-                year: "2023",
+                name: {
+                  es: "AWS Solutions Architect",
+                  en: "AWS Solutions Architect"
+                },
+                year: "2026",
                 icon: (
                   <svg viewBox="0 0 40 40" fill="none" width="36" height="36">
                     <rect
@@ -620,8 +623,11 @@ export default function App() {
                 )
               },
               {
-                code: "DVA-C02",
-                name: { es: "Developer", en: "Developer" },
+                code: "Coursera",
+                name: {
+                  es: "IBM Full Stack Developer",
+                  en: "IBM Full Stack Developer"
+                },
                 year: "2023",
                 icon: (
                   <svg viewBox="0 0 40 40" fill="none" width="36" height="36">
@@ -650,12 +656,12 @@ export default function App() {
                 )
               },
               {
-                code: "SOA-C02",
+                code: "Udemy",
                 name: {
-                  es: "SysOps Administrator",
-                  en: "SysOps Administrator"
+                  es: "Figma for Mobile App Design",
+                  en: "Figma for Mobile App Design"
                 },
-                year: "2024",
+                year: "2025",
                 icon: (
                   <svg viewBox="0 0 40 40" fill="none" width="36" height="36">
                     <rect
@@ -729,7 +735,7 @@ export default function App() {
                     className="text-sm font-semibold leading-tight"
                     style={{ color: "#1a1a1c" }}
                   >
-                    AWS {cert.name[lang]}
+                    {cert.name[lang]}
                   </p>
                   <p className="text-xs" style={{ color: "rgba(0,0,0,0.4)" }}>
                     {tx.certs.level}
@@ -867,7 +873,7 @@ export default function App() {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="mailto:tu@email.com"
+              href="mailto:kennepo23@email.com"
               className="flex items-center gap-3 border px-6 py-3 text-sm font-medium tracking-wide transition-all duration-200"
               style={{
                 borderColor: "rgba(0,168,90,0.4)",
@@ -887,7 +893,7 @@ export default function App() {
               <span className="font-mono text-xs opacity-50">↗</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/kenneth-williams-garcia-ba4441232/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 border px-6 py-3 text-sm font-medium tracking-wide transition-all duration-200"
@@ -912,7 +918,7 @@ export default function App() {
               <span className="font-mono text-xs opacity-50">↗</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Kwilliams4"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 border px-6 py-3 text-sm font-medium tracking-wide transition-all duration-200"
