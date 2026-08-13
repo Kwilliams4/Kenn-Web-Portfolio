@@ -93,98 +93,96 @@ const categoryConfig = {
 const projects: Project[] = [
   {
     id: 1,
-    title: { es: "Plataforma de E-commerce", en: "E-commerce Platform" },
-    description: {
-      es: "Marketplace multivendedor con pagos en tiempo real, gestión de inventario y panel analytics para vendedores. Soporta 50k+ usuarios activos.",
-      en: "Multi-vendor marketplace with real-time payments, inventory management, and an analytics dashboard for sellers. Supports 50k+ active users."
+    title: {
+      es: "Plataforma de Reseñas de Concesionarios",
+      en: "Dealership Review Platform"
     },
-    tags: ["Next.js", "PostgreSQL", "Redis", "Stripe", "TypeScript"],
-    year: "2024",
-    status: "production",
+    description: {
+      es: "Aplicación cloud full-stack enfocada en la construcción de una plataforma de reseñas de concesionarios utilizando Django, IBM Cloud, servicios serverless y despliegues contenerizados. La solución integra autenticación de usuarios, APIs backend, servicios nativos de la nube y prácticas de CI/CD para ofrecer una aplicación web moderna y escalable.",
+      en: "Full-stack cloud application focused on building a dealership review platform using Django, IBM Cloud, serverless services, and containerized deployments. The solution integrates user authentication, backend APIs, cloud-native services, and CI/CD practices to deliver a scalable and modern web application."
+    },
+    tags: ["Python", "Django", "IBM Cloud", "HTML", "CSS", "JavaScript"],
+    year: "2023",
+    status: "open-source",
     category: "fullstack",
-    repo: "https://github.com/tuusuario/ecommerce-platform"
+    repo: "https://github.com/Kwilliams4/agfzb-CloudAppDevelopment_Capstone"
   },
   {
     id: 2,
     title: {
-      es: "API Gateway de Microservicios",
-      en: "Microservices API Gateway"
+      es: "Aplicación de Aprendizaje en Línea",
+      en: "Online Learning App"
     },
     description: {
-      es: "Gateway centralizado para orquestación de 12 microservicios con autenticación JWT, rate limiting y observabilidad distribuida.",
-      en: "Centralized gateway orchestrating 12 microservices with JWT authentication, rate limiting, and distributed observability."
+      es: "Plataforma de aprendizaje en línea desarrollada con Django y ampliada con un sistema de evaluaciones para gestionar cursos, lecciones y evaluaciones de estudiantes. La aplicación integra modelos respaldados por base de datos, vistas y templates web, además de capacidades de despliegue en la nube.",
+      en: "A Django-based online learning platform enhanced with an assessment system for managing courses, lessons, and student evaluations. The application integrates database-backed models, web views and templates, and cloud deployment capabilities."
     },
-    tags: ["Node.js", "Express", "Docker", "MongoDB", "Prometheus"],
-    year: "2024",
-    status: "production",
+    tags: ["Python", "Django", "JavaScript", "HTML", "CSS"],
+    year: "2023",
+    status: "open-source",
     category: "fullstack",
-    repo: "https://github.com/tuusuario/api-gateway"
+    repo: "https://github.com/Kwilliams4/final-cloud-app-with-database"
   },
   {
     id: 3,
     title: {
-      es: "CMS Headless Colaborativo",
-      en: "Collaborative Headless CMS"
+      es: "Reseña de Libros",
+      en: "Book Reviews"
     },
     description: {
-      es: "Sistema de gestión de contenido con edición en tiempo real, versionado de documentos y flujos de aprobación multi-equipo.",
+      es: "A RESTful backend built with Node.js and Express for managing and reviewing books, including API endpoints for retrieving books, submitting reviews, and managing review data.",
       en: "Content management system with real-time editing, document versioning, and multi-team approval workflows."
     },
-    tags: ["React", "tRPC", "Prisma", "WebSockets", "Postgres"],
+    tags: ["Node.js", "Express"],
     year: "2023",
     status: "open-source",
     category: "fullstack",
-    repo: "https://github.com/tuusuario/headless-cms"
+    repo: "https://github.com/Kwilliams4/expressBookReviews/tree/main/final_project"
   },
   {
     id: 4,
-    title: { es: "Dashboard de Analítica Web", en: "Web Analytics Dashboard" },
+    title: { es: "Dashboard de Presupuesto", en: "Budget Dashboard" },
     description: {
-      es: "Plataforma SaaS de analytics con procesamiento de eventos en streaming, visualizaciones interactivas y reportes automatizados.",
-      en: "SaaS analytics platform with streaming event processing, interactive visualizations, and automated reports."
+      es: "Aplicación de gestión de presupuesto que ayuda a los usuarios a registrar gastos, monitorear sus desembolso y visualizar el presupuesto restante.",
+      en: "Budget management application that helps users track expenses, monitor spending, and view their remaining budget."
     },
-    tags: ["Vue 3", "Python", "ClickHouse", "Kafka", "D3.js"],
+    tags: ["React", "HTML", "CSS"],
     year: "2023",
-    status: "production",
-    category: "fullstack"
+    status: "open-source",
+    category: "fullstack",
+    repo: "https://github.com/Kwilliams4/ejtos-react_budget_app"
   },
   {
     id: 5,
     title: {
-      es: "Sistema de Autenticación Zero-Trust",
-      en: "Zero-Trust Auth System"
+      es: "Blessed Box",
+      en: "Blessed Box"
     },
     description: {
-      es: "Infraestructura de identidad con SSO, MFA adaptativo y políticas de acceso basadas en contexto de dispositivo y red.",
-      en: "Identity infrastructure with SSO, adaptive MFA, and access policies based on device and network context."
+      es: "BlessedBox es una plataforma de gestión de donaciones diseñada para optimizar la recolección, el seguimiento y la generación de reportes de cajas de donación destinadas a apoyar a niños necesitados a través de iniciativas benéficas y ministeriales. La aplicación combina tecnologías web modernas, actualizaciones en tiempo real y servicios de AWS para mejorar la eficiencia operativa y la visibilidad de los datos.",
+      en: "BlessedBox is a cloud-enabled donation management platform designed to streamline the collection, tracking, and reporting of donation boxes that support children in need through charitable and ministry initiatives. The application combines modern web technologies, real-time updates, and AWS cloud services to improve operational efficiency and data visibility."
     },
-    tags: ["Go", "OIDC", "Kubernetes", "Vault", "gRPC"],
-    year: "2023",
-    status: "open-source",
+    tags: ["React Native", "Expo", "Node.js", "Express", "MySQL"],
+    year: "2025",
+    status: "production",
     category: "fullstack",
-    repo: "https://github.com/tuusuario/zero-trust-auth"
+    repo: "https://github.com/BlessedBox-DevTeam/CODENAME-Blessed-Box"
   },
   {
     id: 6,
     title: {
-      es: "Infraestructura Multi-Cuenta AWS",
-      en: "AWS Multi-Account Infrastructure"
+      es: "Blessed Box IaC",
+      en: "Blessed Box IaC"
     },
     description: {
-      es: "Landing Zone con AWS Organizations, SCPs, y flujos de aprovisionamiento automatizado para 8 cuentas de producción en 3 regiones.",
-      en: "Landing Zone with AWS Organizations, SCPs, and automated provisioning for 8 production accounts across 3 regions."
+      es: "Repositorio de Infraestructura como Código (IaC) para BlessedBox, utilizado para aprovisionar y administrar recursos de AWS mediante despliegues automatizados y repetibles. El proyecto define componentes clave de infraestructura como redes, cómputo, bases de datos, seguridad y monitoreo para respaldar una plataforma de gestión de donaciones escalable y confiable.",
+      en: "Infrastructure as Code (IaC) repository for BlessedBox, used to provision and manage AWS cloud resources through automated and repeatable deployments. The project defines core infrastructure components such as networking, compute, databases, security, and monitoring to support a scalable and reliable donation management platform."
     },
-    tags: [
-      "AWS Organizations",
-      "Control Tower",
-      "Terraform",
-      "IAM",
-      "CloudTrail"
-    ],
-    year: "2024",
+    tags: ["AWS", "EC2", "DynamoDB", "Route53", "Terraform", "IAM"],
+    year: "2025",
     status: "production",
     category: "aws",
-    repo: "https://github.com/tuusuario/aws-landing-zone"
+    repo: "https://github.com/Kwilliams4/blessed_box_IaC"
   },
   {
     id: 7,
@@ -354,7 +352,9 @@ export default function App() {
   const [lang, setLang] = useState<Lang>("es");
   const cfg = categoryConfig[active];
   const tx = t[lang];
-  const filtered = projects.filter((p) => p.category === active);
+  const filtered = projects
+    .sort((a, b) => parseInt(b.year) - parseInt(a.year))
+    .filter((p) => p.category === active);
 
   return (
     <div
