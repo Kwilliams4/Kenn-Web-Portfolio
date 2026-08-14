@@ -178,24 +178,27 @@ const projects: Project[] = [
       es: "Repositorio de Infraestructura como Código (IaC) para BlessedBox, utilizado para aprovisionar y administrar recursos de AWS mediante despliegues automatizados y repetibles. El proyecto define componentes clave de infraestructura como redes, cómputo, bases de datos, seguridad y monitoreo para respaldar una plataforma de gestión de donaciones escalable y confiable.",
       en: "Infrastructure as Code (IaC) repository for BlessedBox, used to provision and manage AWS cloud resources through automated and repeatable deployments. The project defines core infrastructure components such as networking, compute, databases, security, and monitoring to support a scalable and reliable donation management platform."
     },
-    tags: ["AWS", "EC2", "DynamoDB", "Route53", "Terraform", "IAM"],
-    year: "2025",
+    tags: ["AWS", "EC2", "DynamoDB", "Route53", "Terraform", "IAM", "CI/CD"],
+    year: "2026",
     status: "production",
     category: "aws",
     repo: "https://github.com/Kwilliams4/blessed_box_IaC"
   },
   {
     id: 7,
-    title: { es: "Pipeline CI/CD Serverless", en: "Serverless CI/CD Pipeline" },
-    description: {
-      es: "Plataforma de despliegue basada en eventos con Lambda, Step Functions y CodePipeline. Reducción del 70% en tiempo de entrega.",
-      en: "Event-driven deployment platform using Lambda, Step Functions, and CodePipeline. 70% reduction in delivery time."
+    title: {
+      es: "Pagina de Boda Serverless",
+      en: "Serverless Wedding Website"
     },
-    tags: ["Lambda", "Step Functions", "CodePipeline", "SAM", "EventBridge"],
-    year: "2024",
+    description: {
+      es: "Arquitectura serverless que aloja una pagina web para una boda, utilizando Lambda para RSVP y DynamoDB para almacenar las respuestas de los invitados.",
+      en: "Serverless architecture that hosts a wedding website, using Lambda for RSVP and DynamoDB for storing the guest responses."
+    },
+    tags: ["Lambda", "S3", "Cloudfront", "DynamoDB", "API Gateway", "CI/CD"],
+    year: "2026",
     status: "production",
     category: "aws",
-    repo: "https://github.com/tuusuario/serverless-cicd"
+    repo: "https://github.com/Kwilliams4/Wedding-C-K-IaC"
   },
   {
     id: 8,
